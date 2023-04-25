@@ -9,12 +9,12 @@
     font-family: cursive;
     padding: 0 46% 0;
 }
-
+/*-----Body-----*/
 .detail{
     width: 45%;
-    height: 550px;
+    height: 530px;
     display: inline-block;
-    border:1px solid black;
+    border-right: 2px solid black;
 }
 
 .detail1{
@@ -41,12 +41,19 @@
     color:rgb(67, 139, 233);
 }
 
-.skill{
+.me{
+    color:black;
+}
+
+.container1{
     width: 54%;
-    height: 250px;
     float: right;
     margin-right: 5px;
-    border: 1px solid black;
+}
+
+.skills{
+    width: 100%;
+    height: 305px;
     background-image: url(https://i.ibb.co/YWz17w8/programming.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -61,19 +68,59 @@ p{
 }
 
 .developer{
-    width: 49%;
-    height: 80%;
+    width: 25%;
+    height: 255px;
     margin-left: 1%;
     display: inline-block;
+    position: absolute;
     background-color: white;
 }
 
+.html,.css,.node{
+    height: 100px;
+    width: 100px;
+}
+
+.js{
+    height: 90px;
+    width: 95px;
+}
+
+.mongo{
+    height: 100px;
+    width: 100px;
+    float:right;
+    margin-right: 5%;
+}
+
+.dev,.ele{
+    text-align: center;
+    font-size: 25px;
+    font-style: italic;
+    font-family: cursive;
+    color:black;
+}
+
 .electronics{
-    width:49%;
-    height: 80%;
+    width: 49%;
+    height: 255px;
     display: inline-block;
     background-color: white;
+    margin-right: 2%;
+    float: right;
 }   
+
+.pcb{
+    height: 160px;
+    width: 200px;
+    float: right;
+}
+
+.textpcb{
+    color: black;
+    font-size: 25px;
+    font-family: math;
+}
 
 .about,.hobbis{
     text-align: center;
@@ -83,12 +130,19 @@ p{
 }
 
 .hobbi{
-    width: 53%;
-    height: 250px;
+    width: 100%;
+    height: 225px;
     display: inline-block;
-    border:1px solid black;
 }
 
+.computer,.pcbtesting,.bike,.car{
+    height: 100px;
+    width: 130px;
+    margin: 35px 15px 0px;
+}
+
+
+/*-----footer-----*/
 .footer{
     width: 100%;
     height: 40px;
