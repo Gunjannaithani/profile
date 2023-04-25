@@ -1,0 +1,101 @@
+
+.headercont{
+    width: 100%;
+    height: 40px;
+    background-color: #123f5d;
+    color: white;
+    font-size: 20px;
+    font-style: italic;
+    font-family: cursive;
+    padding: 0 46% 0;
+}
+
+.detail{
+    width: 45%;
+    height: 550px;
+    display: inline-block;
+    border:1px solid black;
+}
+
+.detail1{
+    color:black;
+}
+
+.fa-facebook{
+    color:blue;
+}
+
+.fa-instagram{
+    color: #e36309;
+}
+
+.fa-youtube{
+    color:red;
+}
+
+.fa-linkedin{
+    color:rgb(67, 139, 233);
+}
+
+.fa-twitter{
+    color:rgb(67, 139, 233);
+}
+
+.skill{
+    width: 54%;
+    height: 250px;
+    float: right;
+    margin-right: 5px;
+    border: 1px solid black;
+    background-image: url(https://i.ibb.co/YWz17w8/programming.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+p{
+    text-align: center;
+    font-size: 25px;
+    font-style: italic;
+    font-family: cursive;
+    color:white;
+}
+
+.developer{
+    width: 49%;
+    height: 80%;
+    margin-left: 1%;
+    display: inline-block;
+    background-color: white;
+}
+
+.electronics{
+    width:49%;
+    height: 80%;
+    display: inline-block;
+    background-color: white;
+}   
+
+.about,.hobbis{
+    text-align: center;
+    font-size: 25px;
+    font-style: italic;
+    font-family: cursive;
+}
+
+.hobbi{
+    width: 53%;
+    height: 250px;
+    display: inline-block;
+    border:1px solid black;
+}
+
+.footer{
+    width: 100%;
+    height: 40px;
+    background-color: #123f5d;
+    color: white;
+    font-size: 20px;
+    font-style: italic;
+    font-family: cursive;
+    text-align: center;
+}
